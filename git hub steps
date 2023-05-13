@@ -1,5 +1,0 @@
-1. Clone the Repository using Git clone {Repolink}
-2. Modify and add the necessary code required
-3. after modification type git add . to add every files 
-4. then type git commit to modify the changes
-5. then type git push to push the files to the repositery
