@@ -24,12 +24,12 @@ module.exports.insertAdmin = async (req,res) => {
     res.send({msg:"Admin Added Sucessfully !"});
 }
 module.exports.insertHall = async (req,res) => {
-    const numberplate = new Hall({
+    const hall = new Hall({
         hallnum: req.body.hallnum,
         loaction:req.body.loaction,
         capacity:req.body.capacity,
         facultyid:req.body.facultyid,
     })
-    await numberplate.save();
+    await hall.save();
     res.send({msg:"Hall Added Sucessfully !"});
 }
